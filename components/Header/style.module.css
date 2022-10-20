@@ -1,0 +1,30 @@
+.header {
+    background: linear-gradient(rgb(78, 78, 255), rgb(130, 202, 238));
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 1px 1px 5px black;
+    color: white;
+    position: fixed;
+    width: 100vw; height: 40px;
+}
+
+.header div {
+    margin: 10px;
+}
+
+.header ul {
+    display: flex;
+}
+
+.header ul li {
+    list-style: none;
+    margin: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: .5s;
+}
+.header ul li:hover {
+    font-size: 14px;
+    color: rgb(138, 249, 255);
+}
