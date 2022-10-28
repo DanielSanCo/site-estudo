@@ -10,7 +10,7 @@ export const Cabecalho = () => {
                 <li>Javascript</li>
                 <li>Typescript</li>
                 <li>Reactjs</li>
-                <li>Nextjs</li>
+                <li><a href="/nextjs">Nextjs</a></li>
                 <li><a href='/nestjs'>Nestjs</a></li>
             </ul>
         </header>

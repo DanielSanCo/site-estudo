@@ -1,0 +1,35 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.titulo {
+    font-size: 40px;
+    font-weight: bold;
+    margin: 15px;
+    margin-top: 80px;
+}
+.line {
+    height: 1px;
+    width: 98%;
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0), black, rgba(0, 0, 0, 0));
+    margin-bottom: 25px;
+    margin-top: 10px;
+}
+.eachContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.eachContent img {
+    width: 50%;
+    box-shadow: 1px 1px 5px black;
+    transition: .6s;
+}
+
+.img {
+    cursor: pointer;
+}
+.img:hover {
+    width: 60%;
+}
